@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp staff _hello/_hello
+chown -h --no-dereference Vincent staff _hello/_hello
