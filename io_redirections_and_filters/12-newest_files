@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type -f -ctime | tail -n -1 
+ls -lt | head   
