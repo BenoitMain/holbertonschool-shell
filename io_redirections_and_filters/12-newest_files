@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type -f -ctime 
+find -type -f -ctime | wc -l 
