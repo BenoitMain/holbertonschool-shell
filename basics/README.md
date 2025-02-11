@@ -2,40 +2,9 @@
 
 # Shell Navigation and Manipulation
 
-## Table of Contents
-
-- [Resources](#Resources)
-- [Learning Objectives](#Learning-Objectives)
-- [Requirements](#Requirements)
-- [Tasks](#Tasks)
-    - [0. RTFM](#task0)
-    - [1. Shebang](#task1)
-    - [2. Hello World](#task2)
-    - [3. ls -l](#task3)
-    - [4. pwd](#task4)
-    - [5. cd and ..](#task5)
-    - [6. cd ~](#task6)
-    - [7. cd -](#task7)
-    - [8. ls -la](#task8)
-    - [9. file type](#task9)
-    - [10. Symbolic link](#task10)
-    - [11. cp](#task11)
-    - [12. mv](#task12)
-    - [13. rm](#task13)
-    - [14. mkdir](#task14)
-    - [15. rmdir](#task15)
-    - [16. Wildcard](#task16)
-    - [17. type](#task17)
-    - [18. which](#task18)
-    - [19. help](#task19)
-    - [20. man ls](#task20)
-    - [21. alias](#task21)
-    - [22. What's in that directory?](#task22)
-- [Authors](#Authors)
-
 ## Resources <a name="Resources"></a>
 
-* What Is “The Shell”?
+* [What Is “The Shell”?](https://linuxcommand.org/lc3_lts0010.php)
 * Navigation
 * Looking Around
 * A Guided Tour
