@@ -1,3 +1,2 @@
 #!/bin/bash
-awk '{gsub(/^[ \t]+/,""); if(NF){printf "%s",substr($0,1,1)}} END{print ""}'
-
+cut -c1 | tr -d '\n' | echo "$(cat -)"
