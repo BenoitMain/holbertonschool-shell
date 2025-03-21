@@ -1,0 +1,24 @@
+#!/bin/bash
+# Fichier : 25-acrostic
+
+# Initialiser une chaîne vide pour stocker le message décodé
+message=""
+
+# Lire chaque ligne de l'entrée standard
+while IFS= read -r line; do
+    # 1. Supprimer les espaces/tabulations en début de ligne
+    trimmed_line="${line#"${line%%[![:space:]]*}"}"
+    
+    # 2. Vérifier si la ligne contient du texte après nettoyage
+    if [ -n "$trimmed_line" ]; then
+        # 3. Extraire le premier caractère significatif
+        first_char="${trimmed_line:0:1}"
+        
+        # 4. Ajouter le caractère au message final
+        message+="$first_char"
+    fi
+done
+
+# 5. Afficher le résultat avec un saut de ligne final
+echo "$message"
+
